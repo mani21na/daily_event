@@ -1,4 +1,9 @@
+require "open-uri"
+require "nokogiri"
+require "pry"
+
 require "daily_event/version"
+
 
 module DailyEvent
   class Error < StandardError; end
